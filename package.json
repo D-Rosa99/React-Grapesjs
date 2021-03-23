@@ -1,7 +1,10 @@
 {
-  "name": "react-app",
+  "name": "custom-wix",
+  "author": "David De La Rosa R",
   "version": "0.1.0",
   "private": true,
+  "keywords": ["React, GrapesJs"],
+
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -15,10 +18,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "build": "react-scripts build"
   },
+
   "eslintConfig": {
     "extends": [
       "react-app",
