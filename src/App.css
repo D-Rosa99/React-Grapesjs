@@ -1,7 +1,35 @@
-.gjs-form {
-  margin: 30px;
+* {
+  margin: 0;
+  padding: 0;
 }
-.gjs-siteName {
-  width: 20em;
-  height: 30px;
+.sidebar {
+  width: 15vw;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.sidebar-formgroup {
+  padding: 50px;
+}
+.gjs-editor-cont {
+  width: 69.5vw !important;
+  height: 100vh !important;
+}
+.gjs-pn-views-container {
+  position: fixed;
+  left: 0;
+}
+.gjs-pn-views {
+  position: fixed;
+  left: 0;
+}
+.gjs-editor {
+  left: 28%;
+}
+.gjs-two-color {
+  color: black;
+}
+.gjs-one-bg {
+  background-color: rgba(0, 0, 0, 0);
 }
