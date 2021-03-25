@@ -2,16 +2,6 @@
   margin: 0;
   padding: 0;
 }
-.sidebar {
-  width: 15vw;
-  height: 100vh;
-  position: fixed;
-  right: 0;
-  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
-}
-.sidebar-formgroup {
-  padding: 50px;
-}
 .gjs-editor-cont {
   width: 69.5vw !important;
   height: 100vh !important;

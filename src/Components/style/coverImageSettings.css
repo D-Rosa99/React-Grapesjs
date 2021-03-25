@@ -1,0 +1,18 @@
+.sidebar {
+  width: 15vw;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.sidebar-formgroup {
+  padding: 50px;
+}
+.sidebar-options {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0 15px;
+}
+.sidebar-title {
+  margin: 19px 24px 20px;
+}
