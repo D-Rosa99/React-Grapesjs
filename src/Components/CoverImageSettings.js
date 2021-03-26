@@ -12,7 +12,6 @@ import './style/coverImageSettings.css';
 const CoverImageSettings = ({ editor }) => {
   const [subtitleChecked, setSubtitleChecked] = useState(true);
   const [titleChecked, setTitleChecked] = useState(true);
-  // const [element, setElement] = useState(null);
   const [value, setValue] = useState(0);
 
   const toggleChecked = (e, setChecked) => {
@@ -25,13 +24,6 @@ const CoverImageSettings = ({ editor }) => {
 
     setChecked(checked);
   };
-
-  // const handleClick = () => {
-  //   const element = myFrame.contentWindow.document.getElementsByClassName(
-  //     'container-width'
-  //   )[0];
-  //   console.log('element ', element);
-  // };
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
